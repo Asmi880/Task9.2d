@@ -1,0 +1,159 @@
+/* General styles */
+.questionSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+}
+
+/* Question Label */
+.questionLabel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #3A434E; /* Dark gray-blue */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Title Label and Button */
+.Title-label {
+    font-size: 18px;
+    padding-right: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.title-button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #007BFF; /* Blue */
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+
+/* Image */
+#image {
+    display: none;
+}
+
+/* Title Input */
+.title-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #AC9191;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Abstract Label */
+.abstract-label {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+/* Abstract Text Label */
+.abstract-text-label {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+/* Abstract Input */
+.abstract-input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    line-height: 1;
+    font-family: Arial, sans-serif;
+}
+
+/* Abstract Text Input */
+.abstract-text-input {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    line-height: 1;
+    font-family: Arial, sans-serif;
+}
+
+/* Tags */
+.tags {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+/* Tags Input */
+.tags-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Tags Area */
+.tags-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Post Button */
+.post-button {
+    margin-top: 20px;
+    background-color: #3A434E; /* Dark gray-blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    align-self: flex-end;
+    font-family: Arial, sans-serif;
+}
+
